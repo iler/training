@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 resource "aws_instance" hashi-ilari {
-  count		= "2"
+  count		= "1"
   ami		= "ami-74ee001b"
   instance_type = "t2.micro"
 
